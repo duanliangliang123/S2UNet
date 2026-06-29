@@ -12,8 +12,6 @@ A subset of test images for visual evaluation.
 
 The pre-trained S2UNet-3-16 model weights evaluated on the RNH-he dataset.
 
-Full Release: The full source code is provided in this supplementary material. Comprehensive datasets (including AirSim-VID and Real-NAID) and all pre-trained models (e.g., S2UNet-2-16, S2UNet-2-56, S2UNet-3-40) will be fully publicly released upon the paper's acceptance.
-
 Network Architectures: Dynamic vs. Static
 To facilitate both flexible research scaling and straightforward deployment, we provide two versions of the network architecture in the network/ directory:
 
