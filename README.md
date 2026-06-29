@@ -37,6 +37,7 @@ For evaluating the provided pre-trained model, please place the sample test imag
 Plaintext
 
 data/
+
 └── RNH3K-he/
     └── test/
         ├── hazy/        # Hazy RGB inputs
