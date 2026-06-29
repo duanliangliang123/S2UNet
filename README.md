@@ -37,10 +37,15 @@ For evaluating the provided pre-trained model, please place the sample test imag
 Plaintext
 
 data/
+
 └── RNH3K-he/
+
     └── test/
+    
         ├── hazy/        # Hazy RGB inputs
+        
         ├── vis/         # Clean RGB ground truths
+        
         ├── nir/         # Auxiliary modality 1 (e.g., NIR)
         └── nir2/        # Auxiliary modality 2 (e.g., Thermal/NIR2)
 2. Testing the Pre-trained Model (Tri-modal)
@@ -58,5 +63,3 @@ Bash
 python main_Tri.py
 Both scripts will run inference, output the overall PSNR and SSIM metrics, and save the restored images (with metrics text overlaid) to the results/RNH3K-he/S2UNet/ directory.
 
-3. Training (Upon Acceptance)
-Note: Full training datasets will be released upon acceptance. To train the models from scratch once the complete datasets are available, simply modify the Config class in either main_S2UNet.py or main_Tri.py to set mode = 'train' and run the script. The training pipeline supports Automatic Mixed Precision (AMP) and dynamic learning rate scheduling.
