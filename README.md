@@ -39,7 +39,9 @@ Plaintext
 data/
 
 └── RNH3K-he/
+
     └── test/
+    
         ├── hazy/        # Hazy RGB inputs
         ├── vis/         # Clean RGB ground truths
         ├── nir/         # Auxiliary modality 1 (e.g., NIR)
