@@ -37,15 +37,10 @@ For evaluating the provided pre-trained model, please place the sample test imag
 Plaintext
 
 data/
-
 └── RNH3K-he/
-
     └── test/
-    
         ├── hazy/        # Hazy RGB inputs
-        
         ├── vis/         # Clean RGB ground truths
-        
         ├── nir/         # Auxiliary modality 1 (e.g., NIR)
         └── nir2/        # Auxiliary modality 2 (e.g., Thermal/NIR2)
 2. Testing the Pre-trained Model (Tri-modal)
