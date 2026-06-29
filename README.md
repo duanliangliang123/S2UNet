@@ -1,5 +1,4 @@
 S2UNet: Scalable RGB-X Dehazing and Beyond via Structure-Aware Uncertainty Fusion
-Anonymous ECCV 2026 Submission Paper ID: #996
 
 Overview
 This repository contains the official PyTorch implementation for the paper "S2UNet: Scalable RGB-X Dehazing and Beyond via Structure-Aware Uncertainty Fusion".
