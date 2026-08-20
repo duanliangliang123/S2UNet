@@ -16,7 +16,7 @@ from network.Net_tri import S2UNet
 torch.backends.cudnn.benchmark = True
 
 netsource = 'S2UNet'
-datasource = 'RNH3K-he'
+datasource = 'FANVID-he'
 
 
 class Config:

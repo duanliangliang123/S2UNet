@@ -20,7 +20,7 @@ torch.backends.cudnn.benchmark = True
 
 # Global variables for network and dataset naming conventions
 netsource = 'S2UNet'
-datasource = 'RNH3K-he'
+datasource = 'FANVID-he'
 
 
 class Config:
