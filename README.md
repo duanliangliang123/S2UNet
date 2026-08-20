@@ -57,5 +57,5 @@ Option B: Using the Static Tri-modal Architecture (main_Tri.py) This script uses
 Bash
 
 python main_Tri.py
-Both scripts will run inference, output the overall PSNR and SSIM metrics, and save the restored images (with metrics text overlaid) to the results/FANVID3K-he/S2UNet/ directory.
+Both scripts will run inference, output the overall PSNR and SSIM metrics, and save the restored images (with metrics text overlaid) to the results/FANVID-he/S2UNet/ directory.
 
