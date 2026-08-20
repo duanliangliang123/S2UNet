@@ -10,7 +10,7 @@ Currently, this supplementary material contains only:
 
 A subset of test images for visual evaluation.
 
-The pre-trained S2UNet-3-16 model weights evaluated on the RNH-he dataset.
+The pre-trained S2UNet-3-16 model weights evaluated on the FANVID-he dataset.
 
 Network Architectures: Dynamic vs. Static
 To facilitate both flexible research scaling and straightforward deployment, we provide two versions of the network architecture in the network/ directory:
@@ -36,7 +36,7 @@ Plaintext
 
 data/
 
-└── RNH3K-he/
+└── FANVID-he/
 
     └── test/
     
@@ -57,5 +57,5 @@ Option B: Using the Static Tri-modal Architecture (main_Tri.py) This script uses
 Bash
 
 python main_Tri.py
-Both scripts will run inference, output the overall PSNR and SSIM metrics, and save the restored images (with metrics text overlaid) to the results/RNH3K-he/S2UNet/ directory.
+Both scripts will run inference, output the overall PSNR and SSIM metrics, and save the restored images (with metrics text overlaid) to the results/FANVID3K-he/S2UNet/ directory.
 
